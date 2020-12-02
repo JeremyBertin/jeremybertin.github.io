@@ -17,7 +17,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "http://localhost:5000/email/send",
+                url: "144.202.7.225:5000/email/send",
                 type: "POST",
                 data: {
                     name: name,
