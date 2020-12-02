@@ -1,0 +1,329 @@
+body{
+   font-size: 100%; 
+}
+
+.overlay{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: #0000004a;
+}
+
+.simple-border{
+     border: 1px solid #8a8a8a;
+}
+
+.dark-border{
+    border: 1px solid #393939;
+}
+
+.clear {
+    clear: both;
+}
+
+.medium-container{
+    width: 75%;
+    margin: auto;
+}
+
+.small-container{
+    width: 65%;
+    margin: auto;
+}
+
+.simple-box{
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.47);    
+}
+
+.VR-title-container{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 3em;
+    text-align: center;
+    position: relative;
+}
+
+.manic-vr-main-logo{
+    width: 39em;
+    margin-top: 10px;
+}
+
+.small .manic-vr-main-logo{
+    width: 4em;
+    margin-top: 0px;
+}
+
+img.manic-VR-logo {
+    width: 13em;
+    vertical-align: top;
+}
+
+.small img.manic-VR-logo {
+    width: 2em;
+}
+
+.trailer-section {
+    padding: 10em 2em 1em 0em;
+    background: url(../img/VR/optimized/gallaxy-blue-main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+.vr-trailer {
+    width: 75%;
+    margin: auto;
+    position: relative;
+}
+
+.description-section{
+    padding: 4em 0em;
+    color: #fff;
+    font-family: 'Oswald',Arial,sans-serif;
+    position: relative;
+}
+
+.header-title{
+    margin-bottom: 1.2em;
+    font-size: 4.7em;
+    line-height: 1.4em;
+    text-shadow: 1px -1px 5px black;
+    text-align: center;
+}
+
+.content {
+    text-shadow: 0px 0px 5px #4b4b4b;
+}
+
+.content p{
+    font-size: 2.8em;
+    line-height: 1.5em;
+    word-spacing: 0.04em;
+}
+
+.floating-VR-img{
+    position: relative;
+    width: 50%;
+    border-radius: 1em;
+    box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.8);
+}
+
+.floating-container {
+    margin: 10em 1em 3em 1em;
+}
+
+img#floating-1 {
+    right: -5em;
+}
+
+img#floating-2 {
+    top: -7em;
+    left: -1em;
+    float: right;
+}
+
+img#floating-3 {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    float: right;
+}
+
+img#floating-4 {
+    width: 100%;
+    margin-top: 2em;
+}
+
+
+#screenings-vr{
+    background: url(../img/VR/optimized/galaxy-yellow.jpg);
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+
+#press-vr {
+    background: url(../img/VR/optimized/gallaxy-pink.jpg);
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 90px;
+    padding-bottom: 105px;
+    min-height: 100%;
+    padding: 13em 2em;
+}
+
+#talks {
+    background: url(../img/VR/optimized/galaxy-yellow.jpg);
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 90px;
+    padding-bottom: 105px;
+    min-height: 100%;
+    padding: 13em 2em;
+}
+
+.screening-container {
+    width: 100%;
+}
+
+.press-container-vr{
+    display: block;
+    width: 100%;
+}
+
+.talk-container{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.screening-container div.place{
+    line-height: 34px;
+}
+
+.place-title{
+    font-size: 2em;
+}
+
+.screening-container p{
+    font-size: 1.3em;
+}
+
+.screening-container div.date{
+    font-size: 2.5em;
+}
+
+.screening-container div.location{
+    font-size: 2.3em;
+}
+
+.talks-date-location{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.41);
+}
+
+.talks-date-location .medium{
+   font-size: 3em;
+}
+
+.small-talks-img{
+    max-width: 200px;
+    margin: auto;
+}
+
+@media (min-width: 768px){
+    .navbar .navbar-collapse {
+        text-align: right;
+    }
+    
+    .navbar .navbar-nav {
+        margin-right: 2em;
+        position: relative;
+        top: -3px;
+    }
+    
+    .navbar-brand {
+    top: 20px;
+    }
+    
+}
+
+@media (min-width: 768px)
+{
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        margin-right: 2em;
+        position: relative;
+        top: -3px;
+    }
+    
+    #manicLogo {
+        margin-left: 1em;
+        position: relative;
+        top: 0.6em;
+    }
+    
+    #press-vr,#talks {
+        padding: 7em 7em;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 1650px){
+    .clear{
+        clear: none;
+    }
+}
+
+@media screen and (max-width: 1450px){
+    body {
+        font-size: 95%;
+    }
+}
+@media screen and (max-width: 1270px){
+    body {
+        font-size: 85%;
+    }
+}
+
+@media screen and (max-width: 940px){
+    body {
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .talk-container{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px){
+  .trailer-section {
+        padding: 13em 2em 1em 0em;
+    }
+}
+  
+@media screen and (max-width: 580px){
+    .VR-title-container{
+        margin-bottom: 2em;
+    }
+    
+       .manic-vr-main-logo {
+        width: 17em;
+    }
+    
+    img.manic-VR-logo {
+        width: 6em;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .header-title {
+        font-size: 2.5em;
+    }
+    
+    .content p {
+        font-size: 2.2em;
+    }
+}
+
+@media screen and (max-width: 425px){
+    body {
+        font-size: 65%;
+    }
+    
+      .trailer-section {
+        padding: 15em 2em 1em 0em;
+    }
+}

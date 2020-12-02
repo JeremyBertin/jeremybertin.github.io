@@ -1,0 +1,31 @@
+
+.banner-container{
+position: relative;
+}
+
+.paning-effect-container{
+    overflow: hidden;
+}
+
+/*Active item is visible all others are not*/
+
+.fade-in-out{
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+} 
+
+.fade-in-initial{
+    display: block;
+}
+
+.img-full-alternate{
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+    background-repeat: no-repeat;
+	height: 100%;
+}
